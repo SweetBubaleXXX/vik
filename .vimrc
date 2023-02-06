@@ -32,5 +32,6 @@ nnoremap <F4> :set number!<CR>
 
 command! -nargs=* Encrypt w !kek encrypt <args> -p 1> %
 command! -nargs=* Decrypt w !kek decrypt <args> -p 1> % 
+command! Commit !git add % && git commit -m "%"
 
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
