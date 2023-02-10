@@ -18,7 +18,9 @@ pip install vik
 Or create package from source:
 
 ```bash
-pip install git+https://github.com/SweetBubaleXXX/vik.git
+git clone https://github.com/SweetBubaleXXX/vik.git
+cd vik
+pip install .
 ```
 
 ## Usage
