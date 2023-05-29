@@ -4,6 +4,9 @@ set nobackup
 
 set belloff=all
 
+let &t_EI = "\e[2 q"
+let &t_SI = "\e[6 q"
+
 set ignorecase
 set smartcase
 
