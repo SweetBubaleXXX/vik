@@ -7,6 +7,9 @@ set belloff=all
 let &t_EI = "\e[2 q"
 let &t_SI = "\e[6 q"
 
+syntax on
+set filetype=markdown
+
 set ignorecase
 set smartcase
 
