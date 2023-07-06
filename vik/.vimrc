@@ -10,6 +10,9 @@ let &t_SI = "\e[6 q"
 syntax on
 set filetype=markdown
 
+set binary
+set autoread
+
 set ignorecase
 set smartcase
 
@@ -24,9 +27,6 @@ set linebreak
 
 set mouse=a
 set backspace=2
-
-set binary
-set autoread
 
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
